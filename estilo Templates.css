@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:lightblue;
+}
+
+header{
+	padding:0px 10px;
+	margin:auto;
+	width:90%;
+	display:flex;
+	background-color:deepskyblue;
+}
+
+#logoimagen{
+	margin-left: -10px;
+}
+#menu{
+	padding:40px 0px 0px 0px;
+	margin-left:30px;
+}
+
+#menu li{
+	display:inline;
+}
+
+#menu li a{
+	padding: 10px;
+	background-color:blue;
+	color:white;
+	text-decoration:none;
+	float:left;
+}
+
+#menu li a:hover{
+	background-color:navy;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+
+#cuerpodocumento{
+	padding:15px 10px;
+	margin:auto;
+	width:90%;
+	height:350px;
+	overflow: scroll;
+	background-color:antiquewhite;
+}
+
+footer{
+	padding:15px 10px;
+	margin:auto;
+	width:90%;
+	text-align:center;
+	background-color:deepskyblue;
+}
+
